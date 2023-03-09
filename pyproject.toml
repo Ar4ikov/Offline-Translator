@@ -2,7 +2,14 @@
 name = "offline-translator"
 version = "0.1.0"
 description = "Offline language translator with Pytorch Models"
-authors = ["Your Name <you@example.com>"]
+authors = [
+    "Nikita Davidchuk <bizy18588@gmail.com>",
+    "Yuly Gorbatkov <me@amayakasa.xyz>"
+]
+maintainers = [
+    "Yuly Gorbatkov <me@amayakasa.xyz>",
+    "Nikita Davidchuk <bizy18588@gmail.com>"
+]
 license = "GNU GPL v3.0"
 readme = "README.md"
 packages = [{include = "offline_translator"}]
