@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "offline-translator"
+version = "0.1.0"
+description = "Offline language translator with Pytorch Models"
+authors = ["Your Name <you@example.com>"]
+license = "GNU GPL v3.0"
+readme = "README.md"
+packages = [{include = "offline_translator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
