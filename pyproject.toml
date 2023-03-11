@@ -17,6 +17,8 @@ packages = [{include = "offline_translator"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 torch = { version = "^1.13.1", source = "pytorch"}
+transformers = "^4.26.1"
+fastapi = "^0.93.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.1"
